@@ -2,13 +2,14 @@
 <html>
 <body>
 
-<?php
-$colors = array("red", "green", "blue", "yellow");
+<?php  
+$i = 1;
 
-foreach ($colors as $x) :
-  echo "$x <br>";
-endforeach;
-?>
+while ($i < 6):
+  echo $i;
+  $i++;
+endwhile;
+?>  
 
 </body>
 </html>

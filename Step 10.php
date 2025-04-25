@@ -3,8 +3,11 @@
 <body>
 
 <?php  
-for ($x = 0; $x <= 100; $x+=10) {
-  echo "The number is: $x <br>";
+$i = 0;
+
+while ($i < 100) {
+  $i+=10;
+  echo "$i<br>";
 }
 ?>  
 
