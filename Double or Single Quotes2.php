@@ -4,7 +4,7 @@
 
 <?php
 $x = "John";
-echo "Hello $x";
+echo 'Hello $x';
 ?>
 
 </body>

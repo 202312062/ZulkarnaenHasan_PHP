@@ -3,9 +3,8 @@
 <body>
 
 <?php
-$x = "John";
-echo "Hello $x";
-?>
-
+echo str_word_count("Hello world!");
+?> 
+ 
 </body>
 </html>

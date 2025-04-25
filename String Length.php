@@ -3,9 +3,8 @@
 <body>
 
 <?php
-$x = "John";
-echo "Hello $x";
-?>
-
+echo strlen("Hello world!");
+?> 
+ 
 </body>
 </html>

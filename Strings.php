@@ -3,8 +3,8 @@
 <body>
 
 <?php
-$x = "John";
-echo "Hello $x";
+echo "Hello";
+print "Hello";
 ?>
 
 </body>

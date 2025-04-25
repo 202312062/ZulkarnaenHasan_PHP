@@ -3,9 +3,8 @@
 <body>
 
 <?php
-$x = "John";
-echo "Hello $x";
-?>
-
+echo strpos("Hello world!", "world");
+?> 
+ 
 </body>
 </html>
