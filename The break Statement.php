@@ -3,13 +3,10 @@
 <body>
 
 <?php  
-$i = 1;
-
-do {
-  if ($i == 3) break;
-  echo $i;
-  $i++;
-} while ($i < 6);
+for ($x = 0; $x <= 10; $x++) {
+  if ($x == 3) break;
+  echo "The number is: $x <br>";
+}
 ?>  
 
 </body>

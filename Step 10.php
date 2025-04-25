@@ -3,8 +3,7 @@
 <body>
 
 <?php  
-for ($x = 0; $x <= 10; $x++) {
-  if ($x == 3) continue;
+for ($x = 0; $x <= 100; $x+=10) {
   echo "The number is: $x <br>";
 }
 ?>  
